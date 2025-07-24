@@ -6,10 +6,10 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/weather-app.html"
+      "source": "/(.*)",
+      "destination": "/weather-app.html"
     }
   ],
   "headers": [
@@ -35,4 +35,4 @@
       ]
     }
   ]
-} 
+}
