@@ -1,0 +1,36 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A modern, responsive weather application that provides real-time weather information for any location worldwide.",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "weather",
+    "api",
+    "openweathermap",
+    "javascript",
+    "html",
+    "css",
+    "responsive",
+    "vercel"
+  ],
+  "author": "Weather App Developer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/weather-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/weather-app/issues"
+  },
+  "homepage": "https://yourusername.github.io/weather-app",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+} 
